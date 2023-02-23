@@ -1,6 +1,18 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+const withTM = require("next-transpile-modules")([
+	"@mui/material",
+	"@mui/system",
+]);
 
-module.exports = nextConfig
+module.exports = withTM({
+	reactStrictMode: false,
+	webpack: (config) => {
+		config.resolve.alias = {
+			...config.resolve.alias,
+			"@mui/styled-engine": "@mui/styled-engine-sc",
+		};
+		return config;
+	},
+		images: {
+		  domains: ["localhost"],
+		},
+});
