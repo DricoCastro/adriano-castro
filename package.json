@@ -1,0 +1,35 @@
+{
+  "name": "adriano-castro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.10",
+    "@mui/styled-engine-sc": "^5.11.9",
+    "@next/font": "13.1.6",
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "babel-plugin-styled-components": "^2.0.7",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "moment-timezone": "^0.5.40",
+    "next": "13.1.6",
+    "next-transpile-modules": "^10.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.6",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26"
+  }
+}
