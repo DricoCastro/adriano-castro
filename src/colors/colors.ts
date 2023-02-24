@@ -2,9 +2,11 @@ import { css } from "styled-components";
 
 export const COLORS = {
   biscay:"#1C3B64",
+  blackPearl:"#030b16",
+  royalBlue:"#3444f1",
   white: "#FFFFFF",
+  black:"#010101",
   whiteOpacity35: "#FFFFFF35",
-  black: "#000000",
   red: "#FF0000",
   gallery: "#ECECEC",
   alabaster: "#f7f7f7",
@@ -26,7 +28,9 @@ export const DEFAULT_COLORS = {
     --mirage: ${COLORS["mirage"]};
     --gray: ${COLORS["gray"]};
     --codGray: ${COLORS["codGray"]};
-    --scooter: ${COLORS["biscay"]};
+    --biscay: ${COLORS["biscay"]};
+    --blackPearl: ${COLORS["blackPearl"]};
+    --royalBlue: ${COLORS["royalBlue"]};
     
   `,
 };
