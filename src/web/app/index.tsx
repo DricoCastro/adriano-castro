@@ -5,6 +5,7 @@ import { FC } from "react";
 import { PrimaryHead } from "./components/PrimaryHead";
 import { MuiTheme } from "../theme/mui";
 import { GlobalStyle } from "./styles";
+import { DefaultHeader } from "./components/DefaultHeader";
 
 export const App: FC<AppProps> = ({ Component, pageProps }) => {
   moment.tz.setDefault("America/Sao_Paulo");
@@ -14,7 +15,7 @@ export const App: FC<AppProps> = ({ Component, pageProps }) => {
       <PrimaryHead />
       <GlobalStyle />
       <ThemeProvider theme={MuiTheme}>
-        <div>teste</div>
+        <DefaultHeader />
         <Component {...pageProps} />
       </ThemeProvider>
     </>
