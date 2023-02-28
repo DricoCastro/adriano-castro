@@ -48,7 +48,7 @@ export const SaudationText = styled.a`
       color:${COLORS.royalBlue};
   }
     @media (max-width: 499px) {
-      font-size:24px;
+      font-size:26px;
       font-weight:600;
   }
 `;
@@ -62,7 +62,7 @@ export const ProfileNameText = styled.a`
       text-align:center;
   }
    @media (max-width: 499px) {
-      font-size:40px;
+      font-size:45px;
   }
 `;
 
@@ -75,7 +75,7 @@ export const ProfessionText = styled.a`
       text-align:center;
   }
    @media (max-width: 499px) {
-      font-size:24px;
+      font-size:26px;
   }
 `;
 
