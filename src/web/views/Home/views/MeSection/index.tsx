@@ -18,6 +18,7 @@ export const MeSection = () => {
         <SaudationText>Hello, I’m</SaudationText>
         <ProfileNameText>Adriano Castro</ProfileNameText>
         <ProfessionText>Web and Mobile Developer Jr</ProfessionText>
+        {/* TO DO: Escrever um parágrafo real no lugar desse texto padrão */}
         <DescriptionProfile>
           The point of using Lorem Ipsum is that it has a more-or-less normal
           distribution of letters, as opposed to using Content here, content
@@ -26,6 +27,7 @@ export const MeSection = () => {
         </DescriptionProfile>
       </InfosHolder>
       <HolderImageProfile>
+        {/* TO DO: Deixar imagem com tamanho responsivo*/}
         <Image src={dricoImage} alt="profileImg" width={400} />
       </HolderImageProfile>
     </MeSectionHolder>
