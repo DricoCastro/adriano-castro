@@ -8,7 +8,7 @@ export const MeSectionHolder = styled.div`
     flex-direction:row;
     align-items:center;
     justify-content:center;
-     padding-top: clamp(0.8rem, 1vw, 1.26rem); 
+    padding-top: clamp(0.8rem, 1vw, 1.26rem); 
     padding-left: clamp(1rem, 10.42vw, 12.5rem);
     padding-right: clamp(1rem, 10.42vw, 12.5rem);
     -moz-user-select: none;
@@ -19,16 +19,23 @@ export const MeSectionHolder = styled.div`
     @media (max-width: 1100px) {
     padding-left: 15px;
     padding-right: 15px;
+    flex-direction:column;
   }
 `;
 
 export const InfosHolder = styled.div`
-    width:50%;
+    width:60%;
     display:flex;
     align-items:flex-start;
     justify-content:flex-start;
     flex-direction:column;
     @media (max-width: 1100px) {
+      width:100%;
+      align-items:center;
+      justify-content:center;
+      text-align:justify;
+      padding-bottom:50px;
+      padding-top:30px;
   }
 `;
 
@@ -37,6 +44,12 @@ export const SaudationText = styled.a`
     font-weight:500;
     color:${COLORS.white};
     @media (max-width: 1100px) {
+      text-align:center;
+      color:${COLORS.royalBlue};
+  }
+    @media (max-width: 499px) {
+      font-size:24px;
+      font-weight:600;
   }
 `;
 
@@ -46,6 +59,10 @@ export const ProfileNameText = styled.a`
     color:${COLORS.white};
     margin-top:10px;
     @media (max-width: 1100px) {
+      text-align:center;
+  }
+   @media (max-width: 499px) {
+      font-size:40px;
   }
 `;
 
@@ -55,6 +72,10 @@ export const ProfessionText = styled.a`
     color:${COLORS.white};
     margin-top:10px;
     @media (max-width: 1100px) {
+      text-align:center;
+  }
+   @media (max-width: 499px) {
+      font-size:24px;
   }
 `;
 
@@ -65,11 +86,16 @@ export const DescriptionProfile = styled.a`
     margin-top:40px;
     text-align:justify;
     @media (max-width: 1100px) {
+      text-align:center;
+  }
+   @media (max-width: 499px) {
+      font-size:12px;
+      margin-top:20px;
   }
 `;
 
 export const HolderImageProfile  = styled.div`
-    width:50%;
+    width:40%;
     display:flex;
     align-items:center;
     justify-content:center;
